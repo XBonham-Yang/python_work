@@ -1,0 +1,9 @@
+Quiz_game
+
+This project runs a true or false quiz game and calculates the scores.
+It has a data file with 12 questions.
+A Quiz brain file that has a class. It moves on questions and counts scores
+A Question model file. it loads the data into a question bank and stores it
+in two parts, text--question and answer -- answer.
+
+It's a practise project I did learning how to create classes. 
