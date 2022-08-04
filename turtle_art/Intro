@@ -1,0 +1,12 @@
+This project is also to learn about class. I used turtle graphic and colorcharm.
+
+The target is to re-create Hrist's dot art.
+There are one art picture, main.py
+and painting_art.py file.
+
+In the main file, I used the turtle graphic to practise drawing different things
+those codes need to run one at a time.
+
+In the painting_art file, I extracted colours from the art picture I downloaded
+and deleted the "white" colours from my colour list.
+Then I used the colours for my turtle to create a 10*10 dot art.
