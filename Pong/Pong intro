@@ -1,0 +1,15 @@
+Pong game
+
+It has two paddles and hits a moving ball.
+
+Right player is controlled by up and down keys
+Left player is controlled by w and s keys
+
+The opposite player get a point when a player miss a point
+and the ball reset the centre and changes moving direction
+
+When a player hits the ball, they get a point and the speed
+of the ball will increase.
+Speed will reset when any player missed the ball.
+
+There are two scores displayed on the screen, one for each player.
