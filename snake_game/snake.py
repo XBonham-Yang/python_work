@@ -20,7 +20,7 @@ class Snake:
             tim.goto(i)
             self.snakebody.append(tim)
 
-
+# this range thing(from len-1 ie the last block to 0 ie the head) goes backwards
     def move(self):
         for i in range(len(self.snakebody) - 1, 0, -1):
             new_x = self.snakebody[i - 1].xcor()
