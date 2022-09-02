@@ -2,17 +2,17 @@ import colorgram
 import turtle as t
 import random
 #get all the colours out
-colors = colorgram.extract('hi.jpg', 30)
+colors = colorgram.extract('phs.png', 10)
 
-# c_list = []
-# for c in colors:
-#     r = c.rgb.r
-#     g = c.rgb.g
-#     b = c.rgb.b
-#     rgb = (r,g,b)
-#     c_list.append(rgb)
-#
-# print(c_list)
+ c_list = []
+ for c in colors:
+     r = c.rgb.r
+     g = c.rgb.g
+     b = c.rgb.b
+    rgb = (r,g,b)
+     c_list.append(rgb)
+
+ print(c_list)
 # Now I got all the colours
 colour_list = [(225, 223, 224), (199, 175, 117), (124, 36, 24), (210, 221, 213), (168, 106, 57),
  (186, 158, 53), (6, 57, 83), (109, 67, 85), (113, 161, 175), (22, 122, 174),
